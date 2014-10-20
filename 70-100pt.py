@@ -31,11 +31,12 @@ line1 = drawpad.create_line(200,200,300,300)
 line2 = drawpad.create_line(200,200,100,300)
 
 #windows
-window1 = drawpad.create_rectangle(120,320,170,370, fill= 'white')
-window2 = drawpad.create_rectangle(230,320,280,370, fill= 'white')
-window3 = drawpad.create_rectangle(120,410,170,460, fill= 'white')
-window4 = drawpad.create_rectangle(230,410,280,460, fill= 'white')
+window1 = drawpad.create_rectangle(110,320,160,370, fill= 'white')
+window2 = drawpad.create_rectangle(240,320,290,370, fill= 'white')
+window3 = drawpad.create_rectangle(110,410,160,470, fill= 'white')
+window4 = drawpad.create_rectangle(240,410,290,470, fill= 'white')
 
-
+#door
+door = drawpad.create_rectangle(170,410,230,500, fill= 'brown')
 
 root.mainloop()
