@@ -46,6 +46,9 @@ firstchmnyln = drawpad.create_line(250,200,280,200)
 secondchmnyln = drawpad.create_line(250,200,250,250)
 thirdchmnyln = drawpad.create_line(280,200,280,280)
 
+#grass
+grass = drawpad.create_rectangle(0,500,800,600, fill= 'green')
+
 root.mainloop()
 
 
