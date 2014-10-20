@@ -30,4 +30,12 @@ square = drawpad.create_rectangle(100,300,300,500, fill= 'red')
 line1 = drawpad.create_line(200,200,300,300)
 line2 = drawpad.create_line(200,200,100,300)
 
+#windows
+window1 = drawpad.create_rectangle(120,320,170,370, fill= 'white')
+window2 = drawpad.create_rectangle(230,320,280,370, fill= 'white')
+window3 = drawpad.create_rectangle(120,410,170,460, fill= 'white')
+window4 = drawpad.create_rectangle(230,410,280,460, fill= 'white')
+
+
+
 root.mainloop()
